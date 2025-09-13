@@ -8,11 +8,10 @@ scikit-learn>=1.3.0
 # NLP / text processing
 nltk>=3.8.0
 spacy>=3.7.0
+
+# Sentence Transformers (latest stable compatible)
 sentence-transformers>=2.2.2
 
-# Optional: embeddings via OpenAI
-openai>=1.0.0
-
-# Optional: visualization
+# Visualization
 matplotlib>=3.8.0
 seaborn>=0.12.2
