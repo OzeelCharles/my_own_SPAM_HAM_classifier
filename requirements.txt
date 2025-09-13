@@ -15,3 +15,8 @@ sentence-transformers>=2.2.2
 # Visualization
 matplotlib>=3.8.0
 seaborn>=0.12.2
+
+# pip version récente
+pip install --upgrade pip setuptools wheel
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install transformers sentence-transformers
